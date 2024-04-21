@@ -1838,7 +1838,7 @@ gapi.loaded_0(function (_) {
    _.Ke = function (a, b) {
       b = void 0 === b ? {} : b;
       if (a instanceof _.hd) return a;
-      a = String(a).replace(/&/g, "&").replace(/</g, "<").replace(/>/g, ">").replace(/"/g, """).replace(/'/g, "'");
+      a = String(a).replace(/&/g, "&").replace(/</g, "<").replace(/>/g, ">").replace(/"/g, '"').replace(/'/g, "'");
       b.Gqa && (a = a.replace(/(^|[\r\n\t ]) /g, "$1 "));
       b.mda && (a = a.replace(/(\r\n|\n|\r)/g, "<br>"));
       b.Hqa && (a = a.replace(/(\t+)/g, '<span style="white-space:pre">$1</span>'));
@@ -2653,7 +2653,7 @@ gapi.loaded_0(function (_) {
    tm = /"/g;
    um = /'/g;
    vm = function (a) {
-      return String(a).replace(qm, "&").replace(rm, "<").replace(sm, ">").replace(tm, """).replace(um, "'")
+      return String(a).replace(qm, "&").replace(rm, "<").replace(sm, ">").replace(tm, '"').replace(um, "'")
    };
    wm = /[\ud800-\udbff][\udc00-\udfff]|[^!-~]/g;
    xm = /%([a-f]|[0-9a-fA-F][a-f])/g;

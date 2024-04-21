@@ -3475,7 +3475,7 @@ this.default_GeoMerchantPrestoSiteUi = this.default_GeoMerchantPrestoSiteUi || {
             "&": "&",
             "<": "<",
             ">": ">",
-            """: '"'
+            '"': '"'
          };
          var c = _.da.document.createElement("div");
          return a.replace(Fda, function (d, e) {
