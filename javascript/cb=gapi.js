@@ -1328,7 +1328,7 @@ gapi.loaded_0(function (_) {
       return /^[\s\xa0]*([\s\S]*?)[\s\xa0]*$/.exec(a)[1]
    };
    _.Sc = function (a) {
-      if (!Kc.test(a)) return a; - 1 != a.indexOf("&") && (a = a.replace(Lc, "&")); - 1 != a.indexOf("<") && (a = a.replace(Nc, "<")); - 1 != a.indexOf(">") && (a = a.replace(Oc, ">")); - 1 != a.indexOf('"') && (a = a.replace(Pc, """)); - 1 != a.indexOf("'") && (a = a.replace(Qc, "'")); - 1 != a.indexOf("\x00") && (a = a.replace(Rc, "�"));
+      if (!Kc.test(a)) return a; - 1 != a.indexOf("&") && (a = a.replace(Lc, "&")); - 1 != a.indexOf("<") && (a = a.replace(Nc, "<")); - 1 != a.indexOf(">") && (a = a.replace(Oc, ">")); - 1 != a.indexOf('"') && (a = a.replace(Pc, '"')); - 1 != a.indexOf("'") && (a = a.replace(Qc, "'")); - 1 != a.indexOf("\x00") && (a = a.replace(Rc, "�"));
       return a
    };
    Lc = /&/g;

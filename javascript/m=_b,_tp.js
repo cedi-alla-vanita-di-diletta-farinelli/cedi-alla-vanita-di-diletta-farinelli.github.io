@@ -3230,7 +3230,7 @@ this.default_GeoMerchantPrestoSiteUi = this.default_GeoMerchantPrestoSiteUi || {
          return /^[\s\xa0]*([\s\S]*?)[\s\xa0]*$/.exec(a)[1]
       };
       _.li = function (a) {
-         if (!jda.test(a)) return a; - 1 != a.indexOf("&") && (a = a.replace(kda, "&")); - 1 != a.indexOf("<") && (a = a.replace(lda, "<")); - 1 != a.indexOf(">") && (a = a.replace(mda, ">")); - 1 != a.indexOf('"') && (a = a.replace(nda, """)); - 1 != a.indexOf("'") && (a = a.replace(oda, "'")); - 1 != a.indexOf("\x00") && (a = a.replace(pda, "�"));
+         if (!jda.test(a)) return a; - 1 != a.indexOf("&") && (a = a.replace(kda, "&")); - 1 != a.indexOf("<") && (a = a.replace(lda, "<")); - 1 != a.indexOf(">") && (a = a.replace(mda, ">")); - 1 != a.indexOf('"') && (a = a.replace(nda, '"')); - 1 != a.indexOf("'") && (a = a.replace(oda, "'")); - 1 != a.indexOf("\x00") && (a = a.replace(pda, "�"));
          return a
       };
       kda = /&/g;
