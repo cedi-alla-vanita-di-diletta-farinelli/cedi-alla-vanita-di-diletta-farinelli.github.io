@@ -1090,7 +1090,7 @@ this.default_GeoMerchantPrestoSiteUi = this.default_GeoMerchantPrestoSiteUi || {
       qe = function (a) {
          var b = "";
          var c = _.da._F_jsUrl;
-         if ("undefined" !== typeof document && document && document.getElementById && (a = document.getElementById(a))) {
+         if (document.getElementById && (a = document.getElementById(a))) {
             var d = a.tagName.toUpperCase();
             if ("SCRIPT" == d || "LINK" == d) b = a.src ? a.src : a.getAttribute("href")
          }
