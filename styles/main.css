@@ -2259,12 +2259,11 @@ c-wiz.Ubi8Z {
 	width: 70%;
 }
 
-.EIjale {
-	display: -moz-box;
+.review-container {
 	display: flex;
 	flex-wrap: wrap;
-	-moz-box-pack: justify;
-	justify-content: space-between;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 .zGTRLd {
@@ -2282,11 +2281,10 @@ c-wiz.Ubi8Z {
 	margin-left: 12px;
 }
 
-.iTushb {
-	flex-basis: 100%;
+.review-box {
+	flex-basis: auto;
 	-moz-box-orient: vertical;
 	-moz-box-direction: normal;
-	flex-direction: column;
 	margin: 20px 10px 60px;
 }
 
@@ -2304,16 +2302,8 @@ c-wiz.Ubi8Z {
 }
 
 @media (min-width: 640px) {
-	.iTushb {
-		flex-basis: 48%;
+	.review-box {
 		margin: 0 0 60px;
-	}
-}
-
-@media (min-width: 992px) {
-	.iTushb {
-		flex-basis: 32%;
-		max-width: 300px;
 	}
 }
 
@@ -2336,3 +2326,4 @@ c-wiz.Ubi8Z {
 }
 
 sentinel {}
+
