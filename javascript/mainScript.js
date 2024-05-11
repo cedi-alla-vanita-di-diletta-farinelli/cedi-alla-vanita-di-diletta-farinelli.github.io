@@ -4,7 +4,7 @@ window.onload = function updateDates()
 	const dates = document.getElementsByClassName('month-label');
 	for (let i = 0; i < dates.length; i++)
 	{
-		offset = parseInt(dates[i].textContent) + monthDiff(new Date("2024-03-5"), new Date());
+		offset = parseInt(dates[i].textContent) + monthDiff(new Date('2024-03-04T23:00:00.000Z'), new Date());
 		dates[i].textContent = offset + " mesi fa";
 	}
 }
