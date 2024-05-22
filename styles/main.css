@@ -263,44 +263,6 @@ html[dir="rtl"] .sm8sCf {
 	z-index: 9999;
 }
 
-.VUoKZ {
-	display: none;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 3px;
-	z-index: 1001;
-}
-
-.TRHLAc {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 25%;
-	height: 100%;
-	background: #68e;
-	transform: scaleX(0);
-}
-
-.TRHLAc {
-	transform-origin: 0 0;
-}
-
-.mIM26c .VUoKZ {
-	display: block;
-}
-
-.mIM26c .TRHLAc {
-	animation: boqChromeapiPageProgressAnimation 1s infinite;
-	animation-timing-function: cubic-bezier(0.4, 0, 1, 1);
-	animation-delay: 0.1s;
-}
-
-.ghyPEc .VUoKZ {
-	position: fixed;
-}
-
 @keyframes boqChromeapiPageProgressAnimation {
 	0% {
 		transform: scaleX(0);
@@ -1146,11 +1108,6 @@ c-wiz.Ubi8Z {
 	z-index: 2000;
 }
 
-.XvhY1d {
-	overflow-x: hidden;
-	overflow-y: auto;
-}
-
 .JAPqpe {
 	float: left;
 	padding: 16px 0;
@@ -1593,7 +1550,7 @@ c-wiz.Ubi8Z {
 	width: 100%;
 }
 
-.BiTRX {
+.cover-img-container {
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-width: 1080px;
@@ -1611,7 +1568,7 @@ c-wiz.Ubi8Z {
 	word-break: break-word;
 }
 
-.n9wygc {
+.cover-img {
 	display: block;
 	height: auto;
 	width: 100%;
