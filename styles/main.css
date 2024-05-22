@@ -119,12 +119,6 @@ img {
 	-webkit-overflow-scrolling: touch;
 }
 
-@media (min-width: 640px) {
-	.PDvGL {
-		padding: 18px 54px;
-	}
-}
-
 [dir] .a-tendina {
 	transform: none;
 	opacity: 1;
@@ -279,7 +273,6 @@ html[dir="rtl"] .sm8sCf {
 
 .s6myae,
 .rnMavc {
-	display: -moz-box;
 	display: flex;
 }
 
@@ -307,7 +300,7 @@ html[dir="rtl"] .sm8sCf {
 	}
 }
 
-.eOemif {
+.mobile-nav-section-container {
 	display: -moz-box;
 	display: flex;
 	flex-basis: 100%;
@@ -321,7 +314,7 @@ html[dir="rtl"] .sm8sCf {
 	text-align: center;
 }
 
-.eOemif .xPRkMe {
+.mobile-nav-section-container .nav-section {
 	font-size: 24px;
 	margin-bottom: 2px;
 }
@@ -339,7 +332,7 @@ html[dir="rtl"] .sm8sCf {
 	white-space: nowrap;
 }
 
-.dtKbfb .xPRkMe {
+.dtKbfb .nav-section {
 	font-size: 17px;
 	padding: 0 12px;
 }
@@ -554,13 +547,10 @@ html[dir="rtl"] .sm8sCf {
 
 .desktop-nav-bar,
 .IeYwod {
-	-moz-box-align: center;
+	display: flex;
 	align-items: center;
 	background: white;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	display: -moz-box;
-	display: flex;
 	height: 70px;
 	left: 0;
 	padding: 0 12px;
@@ -626,7 +616,6 @@ html[dir="rtl"] .sm8sCf {
 	bottom: 0;
 	left: 0;
 	box-shadow: 0 0 5px grey;
-	display: -moz-box;
 	display: flex;
 	height: 56px;
 	position: fixed;
@@ -1681,7 +1670,7 @@ html[dir="rtl"] .sm8sCf {
 }
 
 .gallery-title-container,
-.goIW2 {
+.gallery-primary-container {
 	padding: 0 18px;
 }
 
@@ -1697,12 +1686,12 @@ html[dir="rtl"] .sm8sCf {
 	margin: 0;
 }
 
-.d11Ssd {
+.gallery-img {
 	display: block;
 	width: 100%;
 }
 
-.afsrV .d11Ssd {
+.afsrV .gallery-img {
 	border: 2px solid #dadce0;
 }
 
@@ -1744,7 +1733,7 @@ html[dir="rtl"] .sm8sCf {
 }
 
 @media (min-width: 640px) {
-	.goIW2 {
+	.gallery-primary-container {
 		-moz-box-align: center;
 		align-items: center;
 		-moz-box-pack: center;
@@ -1753,11 +1742,9 @@ html[dir="rtl"] .sm8sCf {
 		max-width: 1080px;
 	}
 
-	.UCecQ {
-		display: -moz-box;
+	.gallery-secondary-container {
 		display: flex;
 		flex-wrap: wrap;
-		-moz-box-pack: justify;
 		justify-content: space-between;
 	}
 
@@ -1784,7 +1771,7 @@ html[dir="rtl"] .sm8sCf {
 		flex: 0 0 48%;
 	}
 
-	.PWqJSb.ZdKHsd {
+	.PWqJSb.gallery-img-container {
 		-moz-box-flex: 0;
 		flex: 0 0 32%;
 	}
