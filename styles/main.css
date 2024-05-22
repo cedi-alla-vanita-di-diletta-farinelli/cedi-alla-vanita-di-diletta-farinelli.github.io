@@ -74,7 +74,7 @@ img {
 	white-space: nowrap;
 }
 
-.aPrNKd {
+.review-buttons-container {
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
@@ -1445,11 +1445,11 @@ c-wiz.Ubi8Z {
 	font-style: normal;
 }
 
-.IQ1KEb {
+.geographic-map-container {
 	margin-bottom: 48px;
 }
 
-.QMbmRe {
+.geographic-map {
 	background-position: center center;
 	background-repeat: no-repeat;
 	padding-top: 56%;
