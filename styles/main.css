@@ -24,10 +24,6 @@ img {
 	border: none;
 }
 
-* {
-	-webkit-tap-highlight-color: transparent;
-}
-
 #apps-debug-tracers {
 	display: none;
 }
