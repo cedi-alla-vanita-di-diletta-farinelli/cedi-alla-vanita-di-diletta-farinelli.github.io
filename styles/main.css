@@ -107,14 +107,21 @@ img {
 	}
 }
 
-.xH4iKf .T4LgNb {
-	padding-top: 70px;
-	z-index: auto;
+.main {
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	position: absolute;
+	z-index: 1;
+	padding-top: 35px;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
 }
 
 @media (min-width: 640px) {
-	.xH4iKf .T4LgNb {
-		padding-top: 64px;
+	.PDvGL {
+		padding: 18px 54px;
 	}
 }
 
@@ -187,32 +194,21 @@ html[dir="rtl"] .sm8sCf {
 	background-color: #a37272;
 }
 
-/*# sourceMappingURL=chrome.css.map */
-.kFwPee {
-	height: 100%;
-}
-
 .SSPGKf {
 	display: block;
 	overflow-y: hidden;
 	z-index: 1;
 }
 
-.eejsDc {
-	overflow-y: auto;
-	-webkit-overflow-scrolling: touch;
-}
-
-.MCcOAc {
+.main-container {
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
 	position: fixed;
 	inset: 0;
 	overflow: hidden;
 	z-index: 1;
-}
-
-.MCcOAc>.pGxpHc {
-	flex-shrink: 0;
-	flex-grow: 0;
 }
 
 @keyframes boqChromeapiPageProgressAnimation {
@@ -641,15 +637,6 @@ html[dir="rtl"] .sm8sCf {
 	.mobile-nav-bar {
 		display: none;
 	}
-}
-
-.T4LgNb {
-	bottom: 0;
-	left: 0;
-	top: 0;
-	right: 0;
-	position: absolute;
-	z-index: 1;
 }
 
 .QMEh5b {
@@ -1296,7 +1283,6 @@ html[dir="rtl"] .sm8sCf {
 .introductory {
 	display: flex;
 	flex-flow: column;
-	margin-bottom: 0;
 	text-align: center;
 	width: 100%;
 }
