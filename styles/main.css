@@ -243,7 +243,7 @@ html[dir="rtl"] .sm8sCf {
 	margin-top: 20px;
 }
 
-.zACorf {
+.cookie-dialog-container {
 	background: white;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 	bottom: 56px;
@@ -295,7 +295,7 @@ html[dir="rtl"] .sm8sCf {
 }
 
 @media (min-width: 640px) {
-	.zACorf {
+	.cookie-dialog-container {
 		bottom: 0;
 	}
 }
@@ -1205,16 +1205,16 @@ html[dir="rtl"] .sm8sCf {
 	width: 100%;
 }
 
-.x2TOCf {
+.day-lable {
 	font-weight: 400;
 	text-align: inherit;
 }
 
-.o0m3Qb {
+.day-state-container {
 	padding: 0 0.5em;
 }
 
-.WF8WNe {
+.day-state {
 	white-space: nowrap;
 }
 
