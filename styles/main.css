@@ -118,39 +118,10 @@ img {
 	}
 }
 
-.IMnvVe {
-	display: block;
-	height: 2px;
-	margin-bottom: 3px;
-	transition: transform 0.25s, opacity 0.25s;
-	width: 18px;
-}
-
-.SVpPcd,
-.ihSjwf {
-	transform: none;
-}
-
-.y5Bz3 {
-	opacity: 1;
-}
-
-[dir] .w7WIGb .okoOGc {
+[dir] .a-tendina {
 	transform: none;
 	opacity: 1;
 	pointer-events: auto;
-}
-
-.w7WIGb .SVpPcd {
-	transform: translateY(-5px) rotate(-45deg);
-}
-
-.w7WIGb .y5Bz3 {
-	opacity: 0;
-}
-
-.w7WIGb .ihSjwf {
-	transform: translateY(5px) rotate(45deg);
 }
 
 .DPvwYc {
@@ -194,7 +165,6 @@ html[dir="rtl"] .sm8sCf {
 	color: #a37272;
 }
 
-.Ijjfnf .IMnvVe,
 .Ijjfnf .PDvGL,
 .Ijjfnf .m5LbZb {
 	background-color: #db5e5e;
@@ -515,7 +485,7 @@ html[dir="rtl"] .sm8sCf {
 	}
 }
 
-.ZmaiX {
+.menu {
 	background: white;
 	box-shadow: 0 0 5px grey;
 	height: 100%;
@@ -527,7 +497,7 @@ html[dir="rtl"] .sm8sCf {
 	top: 70px;
 }
 
-.ZmaiX {
+.menu {
 	left: 0;
 	right: auto;
 	transform: translateX(-105%);
@@ -560,7 +530,7 @@ html[dir="rtl"] .sm8sCf {
 }
 
 @media (min-width: 640px) {
-	.ZmaiX {
+	.menu {
 		top: 64px;
 	}
 
