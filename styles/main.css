@@ -1196,9 +1196,7 @@ html[dir="rtl"] .sm8sCf {
 }
 
 .geographic-map {
-	background-position: center center;
-	background-repeat: no-repeat;
-	padding-top: 56%;
+	border: 0px;
 	width: 100%;
 }
 
