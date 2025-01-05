@@ -19,7 +19,7 @@
       <link rel="stylesheet" type="text/css" href="styles/icon.css">
       <link rel="stylesheet" type="text/css" href="styles/fonts.css">
    </head>
-   <body>
+   <body onLoad='setDates()'>
       <div class="main-container" id="main-container-id">
          <div class="main">
             <div class="kFwPee">
@@ -594,13 +594,13 @@
                      <span class="DPvwYc nav-section" aria-hidden="true"></span><span>Indicazioni stradali</span>
                      </a>
                   </div>
-                  <div id="cookie-dialog-id" class="cookie-dialog-container" style="display: none;">
+                  <div id="cookie-dialog-id" class="cookie-dialog-container">
                      <div class="s6myae">
                         <div class="rnMavc">
                            <div class="oD2kdc">Questo sito utilizza i cookie di Google.</div>
-                           <a class="PTmgAc" href="https://support.google.com/business/answer/9156388" target="_blank">Ulteriori informazioni</a>
+                           <a class="cookie-dialog-info-link" href="https://policies.google.com/privacy" target="_blank">Ulteriori informazioni</a>
                         </div>
-                        <a id="cookieAccept" target="_blank" class="PHn8Rd"><span class="DPvwYc ZUpe3e" aria-hidden="true"></span></a>
+                        <a id="cookieAccept" target="_blank" class="cookie-dialog-exit-button-container"><span class="DPvwYc cookie-dialog-exit-button" id="cookie-dialog-exit-button" aria-hidden="true" onClick='hideCookieDialog()'></span></a>
                      </div>
                   </div>
                </div>

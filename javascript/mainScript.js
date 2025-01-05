@@ -1,4 +1,4 @@
-window.onload = function updateDates()
+function setDates()
 {
 	let offset;
 	const dates = document.getElementsByClassName('month-label');
@@ -14,3 +14,8 @@ function monthDiff(dateFrom, dateTo) {
 	(12 * (dateTo.getFullYear() - dateFrom.getFullYear()))
 }
 
+function hideCookieDialog()
+{
+	let cookieDialog = document.getElementById("cookie-dialog-id");
+	cookieDialog.style = "display: none;"
+}

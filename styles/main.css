@@ -256,17 +256,17 @@ html[dir="rtl"] .sm8sCf {
 	z-index: 200;
 }
 
-.PHn8Rd {
+.cookie-dialog-exit-button-container {
 	padding: 6px 16px 0 0;
 }
 
-.PHn8Rd,
-.PTmgAc {
+.cookie-dialog-exit-button-container,
+.cookie-dialog-info-link {
 	color: #757575;
 	display: block;
 }
 
-.ZUpe3e {
+.cookie-dialog-exit-button {
 	cursor: pointer;
 	font-size: 24px;
 }
@@ -282,7 +282,7 @@ html[dir="rtl"] .sm8sCf {
 	margin-top: 18px;
 }
 
-.PTmgAc {
+.cookie-dialog-info-link {
 	font: 500 14px/20px "Google Sans", Roboto, Arial, sans-serif;
 	line-height: 32px;
 }
